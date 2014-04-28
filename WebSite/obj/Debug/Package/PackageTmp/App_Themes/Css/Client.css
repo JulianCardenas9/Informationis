@@ -1,0 +1,125 @@
+﻿.box
+{
+    border: 1px solid #CCCCCC;
+    color: #AAAAAA;
+    display: inline-block;
+    font-size: 13px;
+    height: 90px;
+    padding: 10px;
+    width: 300px;
+    position:relative;
+    text-align:left;
+    overflow:hidden;
+}
+.box .edit, .box .delete
+{
+    position:absolute;
+    top:0px;
+    display:none;
+    cursor:pointer;
+}
+.box .edit
+{
+    right:24px;
+}
+.box .delete
+{
+    right:0px;
+}
+.title_box
+{
+    background-color: transparent;
+    border-bottom: 1px solid #0072BC;
+    font-size: 24px;
+    margin: 5px;
+    padding: 5px;
+    width: 965px;   
+    color:#0072BC;
+    text-align:left;
+}
+.title_box .buttom
+{
+    float:right;
+}
+.title_box .buttom b
+{
+    font-weight:bold;
+}
+.box .info, .box .info span, .box .info img, .box .row,.box .icon
+{
+    float:left;
+    word-wrap: break-word;
+}
+.box .info 
+{
+    width:220px;
+}
+.box .row
+{
+    width:220px;
+}
+.box .icon
+{
+    margin-right:10px;
+}
+.box span
+{
+    color:#555;
+    font-size:13px;
+    width:100%;
+}
+.box .title
+{
+    font-size:18px;
+    color:#0072BC;
+    width:220px;
+    font-weight:normal;
+}
+.box a
+{
+    color:#aaa;
+    margin-left:10px;
+}
+.content
+{
+    color:#555;
+}
+.toolbar
+{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+    padding:5px;
+    text-align:right;
+}
+.buttom, .buttom:visited
+{
+    background-color:#0072BC;
+    color:#fff !important;
+    text-decoration:none;
+}
+#rptClient
+{
+    min-height:400px
+}
+.center
+{
+    width:100%;
+    text-align:center;
+}
+.modal_content h1
+{
+    border-bottom-color: #0072BC;
+    color: #0072BC;
+    float: left;
+    font-size: 21px;
+    text-align: left;
+    width: 97%;
+}
+.not_buttom
+{
+    color:#0072BC;
+}
+.box span a
+{
+    margin-left:0px;
+}

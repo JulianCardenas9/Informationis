@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B960943-A2E7-41BB-9837-7D9BAC04D0A0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSite</RootNamespace>
+    <AssemblyName>WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Company.aspx" />
+    <Content Include="Admin\Manage.aspx" />
+    <Content Include="App_Themes\Css\About.css" />
+    <Content Include="App_Themes\Css\Admin.css" />
+    <Content Include="App_Themes\Css\Manage.css" />
+    <Content Include="App_Themes\Css\Mobile\Main.css" />
+    <Content Include="App_Themes\Css\Mobile\Task.css" />
+    <Content Include="App_Themes\Css\Review.css" />
+    <Content Include="App_Themes\Css\TaskList.css" />
+    <Content Include="App_Themes\Images\Analysis\Caso de Uso Agente.png" />
+    <Content Include="App_Themes\Images\Analysis\Caso de Uso Cliente.png" />
+    <Content Include="App_Themes\Images\Analysis\Caso de Uso Coordinador.png" />
+    <Content Include="App_Themes\Images\Analysis\Casos de Uso.png" />
+    <Content Include="App_Themes\Images\Analysis\Clases.png" />
+    <Content Include="App_Themes\Images\Analysis\Diagrama de Base de Datos.jpg" />
+    <Content Include="App_Themes\Images\Analysis\secuenciaCliente.png" />
+    <Content Include="App_Themes\Images\Analysis\secuenciaCoordinador.png" />
+    <Content Include="App_Themes\Images\Analysis\secuenciaUser.png" />
+    <Content Include="App_Themes\Images\Analysis\UML_Clases.png" />
+    <Content Include="App_Themes\Images\Backup.png" />
+    <Content Include="App_Themes\Images\calendar.png" />
+    <Content Include="App_Themes\Images\Clients\Aranda2.png" />
+    <Content Include="App_Themes\Images\Clients\arcadia.gif" />
+    <Content Include="App_Themes\Images\Clients\blog.gif" />
+    <Content Include="App_Themes\Images\Clients\dinero.gif" />
+    <Content Include="App_Themes\Images\Clients\finanzas.gif" />
+    <Content Include="App_Themes\Images\Clients\finca raiz.jpg" />
+    <Content Include="App_Themes\Images\Clients\fucsia.gif" />
+    <Content Include="App_Themes\Images\Clients\jetset.gif" />
+    <Content Include="App_Themes\Images\Clients\planb.gif" />
+    <Content Include="App_Themes\Images\Clients\semana.gif" />
+    <Content Include="App_Themes\Images\Clients\soho.gif" />
+    <Content Include="App_Themes\Images\Configure.png" />
+    <Content Include="App_Themes\Images\Developers\ana.jpg" />
+    <Content Include="App_Themes\Images\Developers\daniel1.jpg" />
+    <Content Include="App_Themes\Images\Developers\fabian.jpg" />
+    <Content Include="App_Themes\Images\Developers\Julian.jpg" />
+    <Content Include="App_Themes\Images\Developers\logo.jpg" />
+    <Content Include="App_Themes\Images\Documents\Coordinador.png" />
+    <Content Include="App_Themes\Images\Documents\Informacion Agente.png" />
+    <Content Include="App_Themes\Images\Documents\Informacion Cliente.png" />
+    <Content Include="App_Themes\Images\Documents\Informacion tarea.png" />
+    <Content Include="App_Themes\Images\Documents\jpg.png" />
+    <Content Include="App_Themes\Images\Documents\Listado de Agentes.png" />
+    <Content Include="App_Themes\Images\Documents\Listado de Clientes.png" />
+    <Content Include="App_Themes\Images\Documents\Login.png" />
+    <Content Include="App_Themes\Images\Documents\pdf.png" />
+    <Content Include="App_Themes\Images\Documents\Tareas por agente.png" />
+    <Content Include="App_Themes\Images\Documents\Tareas por cliente.png" />
+    <Content Include="App_Themes\Images\executive.jpg" />
+    <Content Include="App_Themes\Images\Fsf\net1.png" />
+    <Content Include="App_Themes\Images\Fsf\net2.png" />
+    <Content Include="App_Themes\Images\Fsf\ProductBacklog.PNG" />
+    <Content Include="App_Themes\Images\Fsf\sprintIBacklogItems.PNG" />
+    <Content Include="App_Themes\Images\Fsf\sprintIBoard.PNG" />
+    <Content Include="App_Themes\Images\Fsf\sprintIIBacklogItems.PNG" />
+    <Content Include="App_Themes\Images\git.jpg" />
+    <Content Include="App_Themes\Images\Icon\agent.png" />
+    <Content Include="App_Themes\Images\Icon\client.png" />
+    <Content Include="App_Themes\Images\Icon\delete.png" />
+    <Content Include="App_Themes\Images\Icon\Devices.png" />
+    <Content Include="App_Themes\Images\Icon\diseno.png" />
+    <Content Include="App_Themes\Images\Icon\edit.png" />
+    <Content Include="App_Themes\Images\Icon\edit1.png" />
+    <Content Include="App_Themes\Images\Icon\Excel 2013.png" />
+    <Content Include="App_Themes\Images\Icon\Folders-OS-Recycle-Bin-Full-Metro-icon %281%29.png" />
+    <Content Include="App_Themes\Images\Icon\home.png" />
+    <Content Include="App_Themes\Images\Icon\icon_gears.png" />
+    <Content Include="App_Themes\Images\Icon\Mac iCal_mirror.png" />
+    <Content Include="App_Themes\Images\Icon\metodologia.png" />
+    <Content Include="App_Themes\Images\Icon\Recycle Bin Full.png" />
+    <Content Include="App_Themes\Images\Icon\Reddit alt.png" />
+    <Content Include="App_Themes\Images\Icon\repositorio.png" />
+    <Content Include="App_Themes\Images\Icon\Task Manager alt 1_mirror.png" />
+    <Content Include="App_Themes\Images\Icon\task.png" />
+    <Content Include="App_Themes\Images\Icon\tecnologias.png" />
+    <Content Include="App_Themes\Images\Icon\Windows Card Space_mirror.png" />
+    <Content Include="App_Themes\Images\Icon\Word 2013.png" />
+    <Content Include="App_Themes\Images\jQuery\animated-overlay.gif" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-icons_222222_256x240.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-icons_228ef1_256x240.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-icons_ef8c08_256x240.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-icons_ffd27a_256x240.png" />
+    <Content Include="App_Themes\Images\jQuery\ui-icons_ffffff_256x240.png" />
+    <Content Include="App_Themes\Images\Logo.png" />
+    <Content Include="App_Themes\Images\Patterns\dao.PNG" />
+    <Content Include="App_Themes\Images\Patterns\DAOBO.jpg" />
+    <Content Include="App_Themes\Images\Patterns\MVC-Process.png" />
+    <Content Include="App_Themes\Images\Patterns\MVC.PNG" />
+    <Content Include="App_Themes\Images\Patterns\PatronDAO.png" />
+    <Content Include="App_Themes\Images\People\0.png" />
+    <Content Include="App_Themes\Images\People\1.png" />
+    <Content Include="App_Themes\Images\People\2.png" />
+    <Content Include="App_Themes\Images\People\3.png" />
+    <Content Include="App_Themes\Images\People\4.png" />
+    <Content Include="App_Themes\Images\People\5.png" />
+    <Content Include="App_Themes\Images\People\6.png" />
+    <Content Include="App_Themes\Images\People\7.png" />
+    <Content Include="App_Themes\Images\People\8.png" />
+    <Content Include="App_Themes\Images\People\9.png" />
+    <Content Include="App_Themes\Images\play.png" />
+    <Content Include="App_Themes\Images\play1.png" />
+    <Content Include="App_Themes\Images\Principal.jpg" />
+    <Content Include="App_Themes\Images\Principal.png" />
+    <Content Include="App_Themes\Images\review.jpg" />
+    <Content Include="App_Themes\Images\review1.jpg" />
+    <Content Include="App_Themes\Images\stop.png" />
+    <Content Include="App_Themes\Images\Company.png" />
+    <Content Include="App_Themes\Images\Restore.png" />
+    <Content Include="App_Themes\Js\Controller\AdminController.js" />
+    <Content Include="App_Themes\Js\Controller\RegistryCompanyController.js" />
+    <Content Include="App_Themes\Js\Controller\MobileUserController.js" />
+    <Content Include="App_Themes\Js\Controller\TaskReviewController.js" />
+    <Content Include="App_Themes\Js\View\AdminView.js" />
+    <Content Include="App_Themes\Js\View\RegistryCompanyView.js" />
+    <Content Include="App_Themes\Js\View\MobileTaskByAgentView.js" />
+    <Content Include="App_Themes\Js\View\TaskReviewView.js" />
+    <Content Include="Clients.aspx" />
+    <Content Include="Company.aspx" />
+    <Content Include="Controls\AdminHeader.ascx" />
+    <Content Include="Controls\Company\CompanyList.ascx" />
+    <Content Include="Controls\Company\Registry.ascx" />
+    <Content Include="Documents.aspx" />
+    <Content Include="Documents\Registros\Registros-1.jpg" />
+    <Content Include="Documents\Registros\Registros-2.jpg" />
+    <Content Include="Documents\Registros\Registros-3.jpg" />
+    <Content Include="Documents\Registros\Registros-4.jpg" />
+    <Content Include="Documents\Registros\Registros-5.jpg" />
+    <Content Include="Documents\Registros\Registros-6.jpg" />
+    <Content Include="Documents\Registros\Registros-7.jpg" />
+    <Content Include="Patrones.aspx" />
+    <Content Include="Methodology.aspx" />
+    <Content Include="Planning.aspx" />
+    <Content Include="Review.aspx" />
+    <Content Include="Technologies.aspx" />
+    <Content Include="Admin\Agent.aspx" />
+    <Content Include="Admin\Client.aspx" />
+    <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\Registry.aspx" />
+    <Content Include="Analisis.aspx" />
+    <Content Include="App_Themes\Css\Agent.css" />
+    <Content Include="App_Themes\Css\Assessment.css" />
+    <Content Include="App_Themes\Css\Client.css" />
+    <Content Include="App_Themes\Css\Design.css" />
+    <Content Include="App_Themes\Css\Footer.css" />
+    <Content Include="App_Themes\Css\General.css" />
+    <Content Include="App_Themes\Css\Header.css" />
+    <Content Include="App_Themes\Css\Index.css" />
+    <Content Include="App_Themes\Css\jquery.css" />
+    <Content Include="App_Themes\Css\Login.css" />
+    <Content Include="App_Themes\Css\Registry.css" />
+    <Content Include="App_Themes\Css\Schedule.css" />
+    <Content Include="App_Themes\Css\Task.css" />
+    <Content Include="App_Themes\Js\Controller\CompanyController.js" />
+    <Content Include="App_Themes\Js\Controller\AgentController.js" />
+    <Content Include="App_Themes\Js\Controller\RegistryController.js" />
+    <Content Include="App_Themes\Js\Controller\TaskController.js" />
+    <Content Include="App_Themes\Js\Controller\UserControler.js" />
+    <Content Include="App_Themes\Js\Library\backbone.js" />
+    <Content Include="App_Themes\Js\Library\jQuery.js" />
+    <Content Include="App_Themes\Js\Library\jQuery.UI.js" />
+    <Content Include="App_Themes\Js\Library\schedule.js" />
+    <Content Include="App_Themes\Js\Library\underscore.js" />
+    <Content Include="App_Themes\Js\Model\CompanyModel.js" />
+    <Content Include="App_Themes\Js\Model\AjaxModel.js" />
+    <Content Include="App_Themes\Js\Model\AgentModel.js" />
+    <Content Include="App_Themes\Js\Model\TaskModel.js" />
+    <Content Include="App_Themes\Js\Model\UserModel.js" />
+    <Content Include="App_Themes\Js\Util\bootstrap-datepicker.js" />
+    <Content Include="App_Themes\Js\Util\jQuery.extend.js" />
+    <Content Include="App_Themes\Js\Util\Menu.js" />
+    <Content Include="App_Themes\Js\Util\Parse.js" />
+    <Content Include="App_Themes\Js\Util\Template.js" />
+    <Content Include="App_Themes\Js\Util\Util.js" />
+    <Content Include="App_Themes\Js\View\CompanyView.js" />
+    <Content Include="App_Themes\Js\View\AgentView.js" />
+    <Content Include="App_Themes\Js\View\RegistryView.js" />
+    <Content Include="App_Themes\Js\View\TaskView.js" />
+    <Content Include="App_Themes\Js\View\UserView.js" />
+    <Content Include="Controls\Activity.ascx" />
+    <Content Include="Controls\Agent\AgentList.ascx" />
+    <Content Include="Controls\Client\ClientList.ascx" />
+    <Content Include="Controls\Developers.ascx" />
+    <Content Include="Controls\Documents.ascx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Header.ascx" />
+    <Content Include="Controls\Login.ascx" />
+    <Content Include="Controls\PrivateHeader.ascx" />
+    <Content Include="Controls\Registry.ascx" />
+    <Content Include="Design.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Versioning.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Ws\CompanyService.asmx" />
+    <Content Include="Ws\UserService.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.aspx.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients.aspx.designer.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdminHeader.ascx.cs">
+      <DependentUpon>AdminHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdminHeader.ascx.designer.cs">
+      <DependentUpon>AdminHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Company\CompanyList.ascx.cs">
+      <DependentUpon>CompanyList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Company\CompanyList.ascx.designer.cs">
+      <DependentUpon>CompanyList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Company\Registry.ascx.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Company\Registry.ascx.designer.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Documents.aspx.cs">
+      <DependentUpon>Documents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documents.aspx.designer.cs">
+      <DependentUpon>Documents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main-Full.Master.cs">
+      <DependentUpon>Main-Full.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main-Full.Master.designer.cs">
+      <DependentUpon>Main-Full.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Main-Private.Master.cs">
+      <DependentUpon>Main-Private.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main-Private.Master.designer.cs">
+      <DependentUpon>Main-Private.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Patrones.aspx.cs">
+      <DependentUpon>Patrones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patrones.aspx.designer.cs">
+      <DependentUpon>Patrones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Methodology.aspx.cs">
+      <DependentUpon>Methodology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Methodology.aspx.designer.cs">
+      <DependentUpon>Methodology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning.aspx.cs">
+      <DependentUpon>Planning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning.aspx.designer.cs">
+      <DependentUpon>Planning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Review.aspx.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Review.aspx.designer.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Technologies.aspx.cs">
+      <DependentUpon>Technologies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Technologies.aspx.designer.cs">
+      <DependentUpon>Technologies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agent.aspx.cs">
+      <DependentUpon>Agent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agent.aspx.designer.cs">
+      <DependentUpon>Agent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Client.aspx.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Client.aspx.designer.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Registry.aspx.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Registry.aspx.designer.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis.aspx.cs">
+      <DependentUpon>Analisis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analisis.aspx.designer.cs">
+      <DependentUpon>Analisis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Activity.ascx.cs">
+      <DependentUpon>Activity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Activity.ascx.designer.cs">
+      <DependentUpon>Activity.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Agent\AgentList.ascx.cs">
+      <DependentUpon>AgentList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Agent\AgentList.ascx.designer.cs">
+      <DependentUpon>AgentList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Client\ClientList.ascx.cs">
+      <DependentUpon>ClientList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Client\ClientList.ascx.designer.cs">
+      <DependentUpon>ClientList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Developers.ascx.cs">
+      <DependentUpon>Developers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Developers.ascx.designer.cs">
+      <DependentUpon>Developers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Documents.ascx.cs">
+      <DependentUpon>Documents.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Documents.ascx.designer.cs">
+      <DependentUpon>Documents.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PrivateHeader.ascx.cs">
+      <DependentUpon>PrivateHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PrivateHeader.ascx.designer.cs">
+      <DependentUpon>PrivateHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Registry.ascx.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Registry.ascx.designer.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Design.aspx.cs">
+      <DependentUpon>Design.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Design.aspx.designer.cs">
+      <DependentUpon>Design.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Versioning.aspx.cs">
+      <DependentUpon>Versioning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Versioning.aspx.designer.cs">
+      <DependentUpon>Versioning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ws\CompanyService.asmx.cs">
+      <DependentUpon>CompanyService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ws\UserService.asmx.cs">
+      <DependentUpon>UserService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+    <None Include="Documents\Acta de Constitucion.docx" />
+    <None Include="Documents\Acta de Constitucion.pdf" />
+    <Content Include="Main.Master" />
+    <None Include="Documents\Documento de Constitucion.docx" />
+    <None Include="Documents\Documento de Constitucion.pdf" />
+    <None Include="Documents\Escritura publica.docx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\Acta de Constitucion.docx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\CheckList.xlsx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\EjemploProyectoFinalPMI.pdf" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\Escritura publica.docx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\exposuredraft_-_software_extension_to_the_pmbok_guide_fifth_edition.pdf" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\Filosofia .docx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\GGS_2014_03_14_CriteriosEvaluacionEmpresa.xlsx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\InformeSemanalNo.1.docx" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\Introducción_PMI.pdf" />
+    <None Include="Documents\GerenciaDeSoftware-2014-03-20\GerenciaDeSoftware\PMBOK 4e.pdf" />
+    <None Include="Documents\Informes\InformeSemanalNo.5.pdf" />
+    <None Include="Documents\Informes\InformeSemanalNo.1.docx" />
+    <None Include="Documents\Informes\InformeSemanalNo.2.docx" />
+    <Content Include="Main-Full.Master" />
+    <Content Include="Main-Private.Master" />
+    <None Include="Documents\Plan Financiero.docx" />
+    <None Include="Documents\Plan Financiero.pdf" />
+    <None Include="Documents\proyecto\Documentogeneral.pdf" />
+    <None Include="Documents\proyecto\SolicituddePersonal.pdf" />
+    <None Include="Documents\Soporte Escrito.docx" />
+    <None Include="Documents\Soporte Escrito.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{64F1CF97-BAA1-4FBC-9201-F4986AA3C6ED}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{52A583FB-F191-4420-980A-CBA0BEFE6FBF}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>1456</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

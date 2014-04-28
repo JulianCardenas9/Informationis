@@ -1,0 +1,33 @@
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\BO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\BO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAOBase.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\Entity.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\Entity.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAOBase.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\BO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\BO.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\BO.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\BO.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAO.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAOBase.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\Entity.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAO.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\Entity.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\bin\Debug\DAOBase.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\ResolveAssemblyReference.cache
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\BO.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\BO\obj\Debug\BO.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\BO.dll
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\BO.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\DAO.dll
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\DAOBase.dll
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\Entity.dll
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\DAO.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\Entity.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\DAOBase.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\ResolveAssemblyReference.cache
+N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\BO.dll
+N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\BO.pdb

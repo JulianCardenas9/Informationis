@@ -1,0 +1,86 @@
+﻿.content .gallery .principal_image
+{
+    display:inline-block;
+    overflow:hidden;
+    vertical-align:top;
+    border:1px solid #ccc;
+}
+.content .gallery .auxiliar_image
+{
+    display:inline-block;
+    width:288px;
+    vertical-align:top;
+}
+.content .gallery
+{
+    text-align:center;
+    background-color:transparent;
+}
+.content .auxiliar_image img
+{
+    border:1px solid #ccc;
+}
+.information
+{
+    color:#7D8287;
+    text-align:left;
+}
+.paute_facil
+{
+    float:left;
+    margin-right:10px;
+}
+.content
+{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 10px;
+    color:#555;
+    width: 980px;
+    min-height:450px;
+    position:relative;
+}
+.content .left_column,.content .right_column
+{
+    display:inline-block;
+    vertical-align:top;
+}
+.content .left_column
+{
+    width:665px;
+}
+.content .right_column
+{
+    width:300px;
+    margin:10px 0px 10px 10px;
+}
+.right_column .box
+{
+    background-color:#EBF0B8;
+    padding:5px;
+    margin:15px 0;
+}
+.right_column .box .map, .right_column .box .calendar, .right_column .box .cloud
+{
+    margin-top:8px;
+}
+.right_column .box .title
+{
+    color:#129197;
+    background-color:#C1CD23;
+    padding:5px;
+    font-size:19px;
+}
+.mockups .principal_image
+{
+    border:0px !important;
+}
+
+.well.dragbox
+{
+    border:1px solid #ddd;
+}
+.clock ul
+{
+    padding:0px;
+}

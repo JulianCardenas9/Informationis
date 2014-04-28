@@ -1,0 +1,155 @@
+﻿body,html 
+{
+    background-color:#BCC721;
+    font-family: Trebuchet MS,Arial;
+    margin:0px;
+    padding:0px;
+    height:100%;
+    overflow-x:hidden;
+}
+h1
+{
+    margin:0px 0px 10px 0px;
+    padding:0px;
+    color:#fff;
+    font-size:16px;
+    font-weight:normal;
+}
+.header, .content, span, input,a
+{
+    width:100%;
+    float:left;
+    font-size:14px;
+}
+input
+{
+    height:25px;
+    padding-left:0px;
+    padding-right:0px;
+    color:#0A8C8E;
+    border:1px solid #fff;
+}
+.header
+{
+    background-color:#0A8C8E;
+    height:25px;
+    font-size:14px;
+    color:#fff;
+    padding-top:6px;
+    padding-left:1%;
+    width:99.5%;
+}
+.content
+{
+    color:#fff;   
+    margin:40% 0;
+    padding:5%;
+    width:90%;
+}
+.content1
+{
+    color:#444;   
+    margin:0 0;
+    padding:0 0%;
+    width:100%;
+    float:left;
+}
+.button
+{
+    background-color:#0A8C8E;
+    padding:6px 10px;
+    margin-top:10px;
+    float:right;
+    width:auto;
+}
+.content1 p
+{
+    float:left;
+    font-size:14px;
+    text-align:center;
+    width:100%;
+}
+.refresh
+{
+    float: right;
+    margin-top: -4px;
+    width: 35px;
+}
+.box
+{
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    margin-top: 1%;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-top: 7px;
+    position: relative;
+    width: 100%;
+}
+.box span
+{
+    width:100%;
+    float:left;
+}
+.box a
+{
+    width:75%;
+    float:right;
+}
+.box .delete, .box .edit,.box .play,.box .stop
+{
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    width: 24px;
+    display:none;
+}
+.box .delete
+{
+    top:35px;
+}
+.box .play,.box .stop
+{
+    height: 16px;
+    padding: 4px;
+    top: 5px;
+    width: 16px;
+    display:block;
+}
+.box .play
+{
+    background-color:#7BBF6A;
+    padding:0px;
+    width:24px;
+    height:24px;
+}
+.stop
+{
+    background-color:#66BDFF;
+}
+.box p
+{
+    text-align:left;
+}
+.box.box_Aprobado
+{
+    border-left:10px solid #BCFFBA;
+}
+.box.box_Pendiente
+{
+    border-left:10px solid #FCEAAB;
+}
+.box.box_En 
+{
+    border-left:10px solid #ABECFC;
+}
+.box.box_Por
+{
+    border-left:10px solid #E1BAFF;
+}
+#map
+{
+    width:100%;
+    height:100%;
+}

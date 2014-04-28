@@ -1,0 +1,15 @@
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\Design\bin\Debug\Design.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\Design\bin\Debug\Design.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\Design.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\Design.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\Design\bin\Debug\Design.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\Design\bin\Debug\Design.pdb
+N:\University\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\ResolveAssemblyReference.cache
+N:\University\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\Design.dll
+N:\University\Ingenieria de Software 2\Project\Software2\sln\Design\obj\Debug\Design.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\Design\bin\Debug\Design.dll
+N:\University\Gerencia de proyectos de software\Project\sln\Design\bin\Debug\Design.pdb
+N:\University\Gerencia de proyectos de software\Project\sln\Design\obj\Debug\ResolveAssemblyReference.cache
+N:\University\Gerencia de proyectos de software\Project\sln\Design\obj\Debug\Design.dll
+N:\University\Gerencia de proyectos de software\Project\sln\Design\obj\Debug\Design.pdb
