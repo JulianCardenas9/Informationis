@@ -23,7 +23,7 @@
             <img align="middle" src="../App_Themes/Images/Icon/Devices.png" />Presentación Comercial</a>--%>
        <a class="tech public" href="/Clients.aspx"> 
             <img align="middle" src="../App_Themes/Images/Icon/tecnologias.png" />Nuestros Clientes</a>
-        
+
         
         
     </div>

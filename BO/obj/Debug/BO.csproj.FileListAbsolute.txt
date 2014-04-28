@@ -31,3 +31,14 @@ N:\University\Gerencia de proyectos de software\Project\sln\BO\bin\Debug\DAOBase
 N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\ResolveAssemblyReference.cache
 N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\BO.dll
 N:\University\Gerencia de proyectos de software\Project\sln\BO\obj\Debug\BO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\BO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\BO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\DAO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\DAOBase.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\Entity.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\DAO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\Entity.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\bin\Debug\DAOBase.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\obj\Debug\BO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\BO\obj\Debug\BO.pdb

@@ -169,6 +169,7 @@
     <Content Include="App_Themes\Images\stop.png" />
     <Content Include="App_Themes\Images\Company.png" />
     <Content Include="App_Themes\Images\Restore.png" />
+    <Content Include="App_Themes\Images\bug.png" />
     <Content Include="App_Themes\Js\Controller\AdminController.js" />
     <Content Include="App_Themes\Js\Controller\RegistryCompanyController.js" />
     <Content Include="App_Themes\Js\Controller\MobileUserController.js" />
@@ -177,6 +178,7 @@
     <Content Include="App_Themes\Js\View\RegistryCompanyView.js" />
     <Content Include="App_Themes\Js\View\MobileTaskByAgentView.js" />
     <Content Include="App_Themes\Js\View\TaskReviewView.js" />
+    <Content Include="bug.aspx" />
     <Content Include="Clients.aspx" />
     <Content Include="Company.aspx" />
     <Content Include="Controls\AdminHeader.ascx" />
@@ -278,6 +280,13 @@
     </Compile>
     <Compile Include="Admin\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bug.aspx.cs">
+      <DependentUpon>bug.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bug.aspx.designer.cs">
+      <DependentUpon>bug.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clients.aspx.cs">
       <DependentUpon>Clients.aspx</DependentUpon>

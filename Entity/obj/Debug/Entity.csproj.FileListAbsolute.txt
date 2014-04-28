@@ -13,3 +13,8 @@ N:\University\Gerencia de proyectos de software\Project\sln\Entity\bin\Debug\Ent
 N:\University\Gerencia de proyectos de software\Project\sln\Entity\obj\Debug\ResolveAssemblyReference.cache
 N:\University\Gerencia de proyectos de software\Project\sln\Entity\obj\Debug\Entity.dll
 N:\University\Gerencia de proyectos de software\Project\sln\Entity\obj\Debug\Entity.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\Entity\bin\Debug\Entity.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\Entity\bin\Debug\Entity.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\Entity\obj\Debug\Entity.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\Entity\obj\Debug\Entity.pdb

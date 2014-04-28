@@ -25,3 +25,12 @@ N:\University\Gerencia de proyectos de software\Project\sln\DAO\bin\Debug\DAOBas
 N:\University\Gerencia de proyectos de software\Project\sln\DAO\obj\Debug\ResolveAssemblyReference.cache
 N:\University\Gerencia de proyectos de software\Project\sln\DAO\obj\Debug\DAO.dll
 N:\University\Gerencia de proyectos de software\Project\sln\DAO\obj\Debug\DAO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\DAO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\DAO.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\DAOBase.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\Entity.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\Entity.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\bin\Debug\DAOBase.pdb
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\obj\Debug\DAO.dll
+C:\Users\Fabian\Dropbox\Universidad\Ingenieria de Software 2\Project\Informationis\DAO\obj\Debug\DAO.pdb

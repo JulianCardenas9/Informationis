@@ -99,7 +99,7 @@
 .header .menu .home img,
 .header .menu .user img
 {
-    width:28px;
+    width:26px;
     margin-top:-18px;
 }
 .header .menu .manage
@@ -138,6 +138,11 @@
 {
     background-color:#0071B9;
 }
+.header .menu .bug
+{
+    background-color:#F67F00;
+}
+
 .header .menu .design
 {
     background-color:#05AEDA;
