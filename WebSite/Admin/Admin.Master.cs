@@ -13,17 +13,24 @@ namespace WebSite.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            url = Request.Url.AbsolutePath;
-            var segments = Request.Url.Segments;
-            var len = segments.Length;
-
-            for (int i = 1; i <= 2; i++)
+            if (Session["Document"] != null)
             {
-                var lastSegment = Request.Url.Segments[len - i];
-                var subStringIndex = url.LastIndexOf(lastSegment);
-                url = url.Remove(subStringIndex);
-            }
+                url = Request.Url.AbsolutePath;
+                var segments = Request.Url.Segments;
+                var len = segments.Length;
 
+                for (int i = 1; i <= 2; i++)
+                {
+                    var lastSegment = Request.Url.Segments[len - i];
+                    var subStringIndex = url.LastIndexOf(lastSegment);
+                    url = url.Remove(subStringIndex);
+                }
+
+            }
+            else
+            {
+                Response.Redirect("/home.aspx");
+            }
         }
     }
 }

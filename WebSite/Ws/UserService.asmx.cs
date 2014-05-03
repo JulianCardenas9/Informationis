@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.Globalization;
+using System.Threading;
 using System.Web.Services;
 using BO;
 using Entity;
-using System.Web.Script.Serialization;
-using System.Globalization;
-using System.Threading;
 
 namespace WebSite.Ws
 {
@@ -21,15 +17,8 @@ namespace WebSite.Ws
     [System.Web.Script.Services.ScriptService]
     public class UserService : System.Web.Services.WebService
     {
-        RolBO rolBo = new RolBO();
         UserBO userBo = new UserBO();
         string sessionName = "Document";
-
-        [WebMethod]
-        public List<Rol> RolList()
-        {
-            return rolBo.List();
-        }
 
         [WebMethod(EnableSession=true)]
         public bool Validate(decimal document, string password)

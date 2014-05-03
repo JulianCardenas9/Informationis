@@ -17,14 +17,6 @@ namespace DAO
             return Get<User>("UserValidate", user);
         }
 
-        public Client GetClient(decimal document, string date)
-        {
-            Client client = new Client();
-            client.Document = document;
-            client.DateExpDocument = date;
-            return client;
-        }
-
         public User Get(decimal document)
         {
             User user = new User();

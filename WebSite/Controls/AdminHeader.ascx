@@ -32,7 +32,7 @@
         <a class="bug public" href="http://mantis.informationis.net/"> 
             <img align="middle" src="../App_Themes/Images/bug.png" />Reportar un problema</a>
     </div>
-    <div>
+    <div style="display:none;">
         <asp:Panel ID="pnlLogin" runat="server">
             <div class="create" style="float: right">
                 <a id="lnkLogin" class="logo">Login</a>

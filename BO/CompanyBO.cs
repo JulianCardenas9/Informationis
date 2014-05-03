@@ -62,18 +62,5 @@ namespace BO
         {
             return companyDao.Insert(company);
         }
-
-        public List<Company> BusyAgent(DateTime date)
-        {
-
-            return null;
-        }
-
-        public List<Company> FreeAgent(DateTime date)
-        {
-            return null;
-        }
-
-
     }
 }

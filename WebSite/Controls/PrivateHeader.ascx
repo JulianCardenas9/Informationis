@@ -35,6 +35,8 @@
             <img align="middle" src="../App_Themes/Images/company.png" />Compañias</a>
         <a id="lblUser" class="user" href="/admin/Agent.aspx" runat="server"> 
             <img align="middle" src="../App_Themes/Images/Icon/client.png" />Usuarios</a>
+        <a id="lblRoles" class="roles" href="/admin/Roles.aspx" runat="server"> 
+            <img align="middle" src="../App_Themes/Images/rol.png" />Roles</a>
     </div>
 
     <asp:Panel ID="pnlLogin" Visible="false" runat="server">

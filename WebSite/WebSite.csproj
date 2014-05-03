@@ -53,8 +53,10 @@
   <ItemGroup>
     <Content Include="Admin\Company.aspx" />
     <Content Include="Admin\Manage.aspx" />
+    <Content Include="Admin\Roles.aspx" />
     <Content Include="App_Themes\Css\About.css" />
     <Content Include="App_Themes\Css\Admin.css" />
+    <Content Include="App_Themes\Css\Rol.css" />
     <Content Include="App_Themes\Css\Manage.css" />
     <Content Include="App_Themes\Css\Mobile\Main.css" />
     <Content Include="App_Themes\Css\Mobile\Task.css" />
@@ -145,6 +147,7 @@
     <Content Include="App_Themes\Images\jQuery\ui-icons_ffd27a_256x240.png" />
     <Content Include="App_Themes\Images\jQuery\ui-icons_ffffff_256x240.png" />
     <Content Include="App_Themes\Images\Logo.png" />
+    <Content Include="App_Themes\Images\rol.png" />
     <Content Include="App_Themes\Images\Patterns\dao.PNG" />
     <Content Include="App_Themes\Images\Patterns\DAOBO.jpg" />
     <Content Include="App_Themes\Images\Patterns\MVC-Process.png" />
@@ -171,10 +174,15 @@
     <Content Include="App_Themes\Images\Restore.png" />
     <Content Include="App_Themes\Images\bug.png" />
     <Content Include="App_Themes\Js\Controller\AdminController.js" />
+    <Content Include="App_Themes\Js\Controller\RegistryRolController.js" />
+    <Content Include="App_Themes\Js\Controller\RolController.js" />
     <Content Include="App_Themes\Js\Controller\RegistryCompanyController.js" />
     <Content Include="App_Themes\Js\Controller\MobileUserController.js" />
     <Content Include="App_Themes\Js\Controller\TaskReviewController.js" />
+    <Content Include="App_Themes\Js\Model\RolModel.js" />
     <Content Include="App_Themes\Js\View\AdminView.js" />
+    <Content Include="App_Themes\Js\View\RegistryRolView.js" />
+    <Content Include="App_Themes\Js\View\RolView.js" />
     <Content Include="App_Themes\Js\View\RegistryCompanyView.js" />
     <Content Include="App_Themes\Js\View\MobileTaskByAgentView.js" />
     <Content Include="App_Themes\Js\View\TaskReviewView.js" />
@@ -184,6 +192,8 @@
     <Content Include="Controls\AdminHeader.ascx" />
     <Content Include="Controls\Company\CompanyList.ascx" />
     <Content Include="Controls\Company\Registry.ascx" />
+    <Content Include="Controls\Rol\Registry.ascx" />
+    <Content Include="Controls\Rol\RolList.ascx" />
     <Content Include="Documents.aspx" />
     <Content Include="Documents\Registros\Registros-1.jpg" />
     <Content Include="Documents\Registros\Registros-2.jpg" />
@@ -198,7 +208,6 @@
     <Content Include="Review.aspx" />
     <Content Include="Technologies.aspx" />
     <Content Include="Admin\Agent.aspx" />
-    <Content Include="Admin\Client.aspx" />
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\Registry.aspx" />
     <Content Include="Analisis.aspx" />
@@ -228,7 +237,6 @@
     <Content Include="App_Themes\Js\Model\CompanyModel.js" />
     <Content Include="App_Themes\Js\Model\AjaxModel.js" />
     <Content Include="App_Themes\Js\Model\AgentModel.js" />
-    <Content Include="App_Themes\Js\Model\TaskModel.js" />
     <Content Include="App_Themes\Js\Model\UserModel.js" />
     <Content Include="App_Themes\Js\Util\bootstrap-datepicker.js" />
     <Content Include="App_Themes\Js\Util\jQuery.extend.js" />
@@ -243,7 +251,6 @@
     <Content Include="App_Themes\Js\View\UserView.js" />
     <Content Include="Controls\Activity.ascx" />
     <Content Include="Controls\Agent\AgentList.ascx" />
-    <Content Include="Controls\Client\ClientList.ascx" />
     <Content Include="Controls\Developers.ascx" />
     <Content Include="Controls\Documents.ascx" />
     <Content Include="Controls\Footer.ascx" />
@@ -264,6 +271,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Ws\CompanyService.asmx" />
+    <Content Include="Ws\RolService.asmx" />
     <Content Include="Ws\UserService.asmx" />
   </ItemGroup>
   <ItemGroup>
@@ -280,6 +288,13 @@
     </Compile>
     <Compile Include="Admin\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
     </Compile>
     <Compile Include="bug.aspx.cs">
       <DependentUpon>bug.aspx</DependentUpon>
@@ -322,6 +337,20 @@
     </Compile>
     <Compile Include="Controls\Company\Registry.ascx.designer.cs">
       <DependentUpon>Registry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Rol\Registry.ascx.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Rol\Registry.ascx.designer.cs">
+      <DependentUpon>Registry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Rol\RolList.ascx.cs">
+      <DependentUpon>RolList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Rol\RolList.ascx.designer.cs">
+      <DependentUpon>RolList.ascx</DependentUpon>
     </Compile>
     <Compile Include="Documents.aspx.cs">
       <DependentUpon>Documents.aspx</DependentUpon>
@@ -393,13 +422,6 @@
     <Compile Include="Admin\Agent.aspx.designer.cs">
       <DependentUpon>Agent.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Client.aspx.cs">
-      <DependentUpon>Client.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Client.aspx.designer.cs">
-      <DependentUpon>Client.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Admin\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -434,13 +456,6 @@
     </Compile>
     <Compile Include="Controls\Agent\AgentList.ascx.designer.cs">
       <DependentUpon>AgentList.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\Client\ClientList.ascx.cs">
-      <DependentUpon>ClientList.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controls\Client\ClientList.ascx.designer.cs">
-      <DependentUpon>ClientList.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\Developers.ascx.cs">
       <DependentUpon>Developers.ascx</DependentUpon>
@@ -522,6 +537,10 @@
     </Compile>
     <Compile Include="Ws\CompanyService.asmx.cs">
       <DependentUpon>CompanyService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ws\RolService.asmx.cs">
+      <DependentUpon>RolService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Ws\UserService.asmx.cs">

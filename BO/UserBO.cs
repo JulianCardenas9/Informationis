@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Entity;
 using DAO;
+using Entity;
 
 namespace BO
 {
@@ -21,19 +19,6 @@ namespace BO
             {
                 return true;
             }
-        }
-
-        public bool ClientValidate(decimal document, String date)
-        {
-            if (userDao.GetClient(document, date) == null)
-            {
-                return false  ;
-            }
-            else
-            {
-                return true;
-            }
-           
         }
 
         public User Get(decimal document)

@@ -85,6 +85,15 @@ namespace WebSite.Controls {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor lblUser;
         
         /// <summary>
+        /// Control lblRoles.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor lblRoles;
+        
+        /// <summary>
         /// Control pnlLogin.
         /// </summary>
         /// <remarks>

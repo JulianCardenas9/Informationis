@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Entity;
 using DAOBase;
+using Entity;
 
 namespace DAO
 {
@@ -33,18 +31,12 @@ namespace DAO
 
         public int Count()
         {
-
             return ExecuteScalar("AgentCount", new Company());
         }
+
         public void Delete(Company company)
         {
             Execute<Company>("CompanyDelete", company);
         }
-
-        public void Save(Company company)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

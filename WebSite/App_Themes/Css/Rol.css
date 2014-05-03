@@ -1,0 +1,135 @@
+﻿.box
+{
+    border: 1px solid #CCCCCC;
+    color: #AAAAAA;
+    display: inline-block;
+    font-size: 13px;
+    height: 65px;
+    padding: 10px;
+    width: 300px;
+    position:relative;
+    text-align:left;
+}
+.box .edit, .box .delete,.box .play,.box .stop
+{
+    position:absolute;
+    top:0px;
+    display:none;
+    cursor:pointer;
+}
+.box .edit
+{
+    right:24px;
+}
+.box .delete
+{
+    right:0px;
+}
+.box .play
+{
+    right:48px;
+    background-color:#7BBF6A;
+}
+.box .stop
+{
+    right:48px;
+    background-color:#66BDFF;
+    width:24px;
+    height:24px;
+}
+.box .stop img
+{
+    margin:4px;
+}
+.title_box
+{
+    background-color: transparent;
+    border-bottom: 1px solid #009F3C;
+    font-size: 24px;
+    margin: 5px;
+    padding: 5px;
+    width: 965px;   
+    color:#009F3C;
+    text-align:left;
+}
+.title_box .buttom
+{
+    float:right;
+}
+.title_box .buttom b
+{
+    font-weight:bold;
+}
+.box .info, .box .info span, .box .info img, .box .row,.box .icon
+{
+    float:left;
+    word-wrap: break-word;
+}
+.box .info 
+{
+    width:220px;
+}
+.box .row
+{
+    width:220px;
+}
+.box .icon
+{
+    margin-right:10px;
+}
+.box span
+{
+    color:#555;
+    font-size:13px;
+    width:100%;
+}
+.box .title
+{
+    font-size:18px;
+    color:#009F3C;
+    width:220px;
+    font-weight:normal;
+}
+.box a
+{
+    color:#aaa;
+    margin-left:10px;
+}
+.content
+{
+    color:#555;
+}
+.toolbar
+{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+    padding:5px;
+    text-align:right;
+}
+.center
+{
+    width:100%;
+    text-align:center;
+}
+#rptAgent
+{
+    min-height:400px
+}
+.buttom
+{
+    background-color:#009F3C;
+}
+.modal_content h1
+{
+    color:#009F3C;
+    border-bottom-color:#009F3C;
+    font-size:21px;
+}
+.not_buttom
+{
+    color:#009F3C;
+}
+.box span a
+{
+    margin-left:0px;
+}

@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebSite.Controls.Client {
+namespace WebSite.Controls.Rol {
     
     
-    public partial class ClientList {
+    public partial class RolList {
         
         /// <summary>
         /// Control Registry1.
@@ -19,6 +19,6 @@ namespace WebSite.Controls.Client {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::WebSite.Controls.Registry Registry1;
+        protected global::WebSite.Controls.Rol.Registry Registry1;
     }
 }

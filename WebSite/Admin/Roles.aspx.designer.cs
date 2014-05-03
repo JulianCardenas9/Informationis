@@ -10,15 +10,15 @@
 namespace WebSite.Admin {
     
     
-    public partial class Client {
+    public partial class Roles {
         
         /// <summary>
-        /// Control AgentList1.
+        /// Control RolList1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::WebSite.Controls.Client.ClientList AgentList1;
+        protected global::WebSite.Controls.Rol.RolList RolList1;
     }
 }
