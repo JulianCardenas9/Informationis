@@ -21,6 +21,7 @@ namespace BO
         public List<Rol> List()
         {
             Rol rol = new Rol();
+            rol.Name = string.Empty;
             return rolDao.List(rol);
         }
 
