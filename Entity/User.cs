@@ -14,6 +14,7 @@ namespace Entity
         public String RolName { get; set; }
         public string CompanyId { get; set; }
         public String CompanyName { get; set; }
+        public String Email { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime LastAccess { get; set; }
     }

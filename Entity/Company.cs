@@ -18,6 +18,7 @@ namespace Entity
         public string UserName { get; set; }
         public string CreationUserName { get; set; }
         public string UserPassword { get; set; }
+        public bool Active { get; set; }
     }
 }
  
