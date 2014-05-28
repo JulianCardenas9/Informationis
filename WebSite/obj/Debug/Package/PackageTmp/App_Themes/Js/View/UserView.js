@@ -2,6 +2,7 @@
     isVisible: false,
     onLoginHandler: null,
     onValidateHandler: null,
+    onRememberHandler: null,
 
     initialize: function () {
         this.addEvents();
@@ -10,6 +11,7 @@
     addEvents: function () {
         $("#lnkLogin").click(jQuery.proxy(this.open, this));
         $("#btnLogin").click(jQuery.proxy(this.onLoginClick, this));
+        $("#btnRemember").click(jQuery.proxy(this.onRememberClick, this));
 
         if ($(".client_login #txtDate").length > 0) {
 
@@ -22,6 +24,17 @@
 
             $("#btnValidate").click(jQuery.proxy(this.onValidateClick, this));
 
+        }
+    },
+
+    onRememberClick: function () {
+        var user = $("#txtDocumento").val();
+
+        if (user != "" && !isNaN(parseFloat(user))) {
+            this.onRememberHandler(user);
+        }
+        else {
+            alert("Por favor ingrese un documento válido")
         }
     },
 
@@ -50,7 +63,7 @@
         var user = $("#txtDocumento").val();
         var pass = $("#txtPassword").val();
 
-        if (user != "") {
+        if (user != "" && !isNaN(parseFloat(user))) {
 
             if (pass != "") {
                 if (this.onLoginHandler != null) {
@@ -63,7 +76,7 @@
             }
         }
         else {
-            alert("Por favor ingrese el usuario")
+            alert("Por favor ingrese un usuario válido")
         }
     },
 

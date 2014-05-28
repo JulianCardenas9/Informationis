@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/WebSite_deploy" />
+  <setParameter name="Connection1-Web.config Connection String" value="Data Source=HELL-GATEPORT\HELLGATE;Initial Catalog=SistemaTecnicos;Integrated Security=SSPI;User ID=dmlr;Password=soma22;" />
+  <setParameter name="Connection2-Web.config Connection String" value="Data Source=JORGESERRANO-PC;Initial Catalog=SistemaTecnicos;Integrated Security=SSPI;User ID=dmlr;Password=soma22;" />
+  <setParameter name="Connection47-Web.config Connection String" value="Data Source=(local);Initial Catalog=SistemaTecnicos;Integrated Security=SSPI;" />
+  <setParameter name="Connection-Web.config Connection String" value="Data Source=fabian-pc\sql;Initial Catalog=GPS;Integrated Security=SSPI;" />
+  <setParameter name="Connection8-Web.config Connection String" value="Data Source=petunia.arvixe.com;Initial Catalog=SistemaTecnicos;User ID=fmoreno;Password=fabian123456;" />
+  <setParameter name="Connection6-Web.config Connection String" value="Data Source=localhost;Initial Catalog=SistemaTecnicos;User ID=fmoreno;Password=fabian123456;" />
+</parameters>
