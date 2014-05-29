@@ -5,6 +5,17 @@ using System.Text;
 using Entity;
 using DAO;
 
+/**
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Descripción: Clase que representa el objeto de negocio (Bussiness Object)
+*				Compañia. Contiene las operaciones CRUD para las compañias.
+*
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Cambio: Se adiciona log de cambios para auditorias.
+**/
+
 namespace BO
 {
     public class CompanyBO

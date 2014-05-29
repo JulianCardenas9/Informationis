@@ -5,6 +5,16 @@ using System.Text;
 using Entity;
 using DAO;
 
+/**
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Descripción: Clase que representa el objeto de negocio (Bussiness Object)
+*				Rol. Contiene las operaciones CRUD para los roles.
+*
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Cambio: Se adiciona log de cambios para auditorias.
+**/
 namespace BO
 {
     public class RolBO

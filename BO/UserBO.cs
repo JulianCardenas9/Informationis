@@ -3,6 +3,17 @@ using System.Collections.Generic;
 using DAO;
 using Entity;
 
+/**
+*
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Descripción: Clase que representa el objeto de negocio (Bussiness Object)
+*				Usuario. Contiene las operaciones CRUD para los usuarios.
+*
+* Autor: cegarciaa
+* Fecha: 29/05/2014
+* Cambio: Se adiciona log de cambios para auditorias.
+**/
 namespace BO
 {
     public class UserBO
