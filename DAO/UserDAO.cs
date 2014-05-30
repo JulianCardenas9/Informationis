@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +7,7 @@ using DAOBase;
 
 namespace DAO
 {
+    //Clase Dao Usuario, hereda de Base, realiza el CRUD de Usuario
     public class UserDAO : Base
     {
         public User Get(decimal document, string password)
