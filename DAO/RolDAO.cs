@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using DAOBase;
 using Entity;
 
 namespace DAO
 {
+    //Clase Dao Rol, herea de Base y realia el CRUD de los roles
     public class RolDAO : Base
     {
         public List <Rol> List(Rol rol)
