@@ -1,6 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+/**
+* Autor: dfcubidesc
+* Fecha: 29/05/2014
+* Cambio: Se adiciona log de cambios para auditorias.
+**/
 
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos atributos para modificar la información

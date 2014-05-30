@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using Entity;
 using DAOBase;
-
+/**
+* Autor: dfcubidesc
+* Fecha: 29/05/2014
+* Cambio: Se adiciona log de cambios para auditorias.
+**/
 namespace DAO
 {
     public class UserDAO : Base
